@@ -6,33 +6,171 @@
   height: 40vmin;
   pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.loginwrapper{
+  max-width: 100%;
+  height: 100vh;
+  background-color: #e75349;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column;
 }
-
-.App-link {
-  color: #61dafb;
+.logincontainer{
+  width: 70%;
+  height: 55vh;
+  background-color: #fff;
+  margin: auto;
+  text-align: start;
+  padding: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logoWrapper img{
+  height: 25px;
+}
+.signWrapper{
+  max-width: 100%;
+  height: auto;
+}
+.activeBtn{
+  background-color: #e75349;
+  border: none;
+  outline: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: #fff;
+}
+.signWrapper button{
+  outline: none;
+  cursor: pointer;
+}
+.signInWrapper {
+  max-width: 100%;
+  height: auto;
+}
+.signInWrapper span{
+  display: block;
+  width: 3%;
+  background-color: #e75349;
+  height: 2px;
+  border-radius: 2px;
+  margin-top: -15px;
+}
+.signInWrapper form input{
+  width: 97%;
+  height: 30px;
+  outline: none;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+.signInWrapper form input:last-child{
+  margin-bottom: 20px;
+}
+.rememberActionWrapper{
+  max-width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.checkwrapper{
+  display: flex;
+}
+.checkwrapper input{
+  cursor: pointer;
+}
+footer{
+  max-width:80%;
+  margin: auto;
+  height: auto;
+  text-align: center;
+  margin-top: -10px;
+}
+footer ul {
+  display: flex;
+   flex-wrap: wrap;
+   list-style: none;
+}
+footer ul li{
+  margin-left: 10px;
+  position: relative;
+  color: #fff;
+  padding-right: 10px;
+}
+.stroke::after{
+  position: absolute;
+  content: '';
+  display: block;
+  width: 10px;
+  height: 15px;
+  top: 5px;
+  right: 0;
+  border-right: 1px solid #e8e8e8;
+}
+ .circwrapperUpper{
+ width: 100%;
+ height: 30px;
+} 
+.circ2top{
+  width: 15px;
+  height: 15px;
+  
+}
+.circwrapper{
+  width: 100%;
+  height: 30px;
+  margin-top: 28px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.circContainer{
+  width: 10%;
+  height: 100%;
+}
+.circ,.topCirc {
+  background-color: #fff;
+  border-radius: 50%;
+}
+.circ1,.topCirc1{
+  width: 30px;
+  height: 30px;
+}
+.circ1{
+  margin-top: -10px;
+}
+.topCirc1{
+  margin-top: 30px; 
+} 
+.circ2 ,.topCirc2{
+  width: 15px;
+  height: 15px;
+}
+.circ2{
+  margin-left: 25px;
+}
+.topCirc2{
+ position: absolute;
+top: -15px;
+left: -10px;
+}
+.upperCircContainer{
+  width: 60%;
+  margin: auto;
+  height: 50px;
+  position: absolute;
+  top: 3%;
+}
+.innerUpperCircContainer{
+  width: 60%;
+  height: 100%;
+  position: relative;
+}
+.icnWrapper{
+  position: relative;
+}
+.icnWrapper .fa{
+  position: absolute;
+  top: 25px;
+}
+.fontAwesome {
+  font-family: 'Helvetica', 'FontAwesome', sans-serif ;
 }
