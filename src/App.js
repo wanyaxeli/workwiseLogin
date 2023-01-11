@@ -45,15 +45,25 @@ function App() {
                       <p>Forgot Password?</p>
                     </div>
                   </div>
+                  <div>
+                    <button className='submitBtn'>Sign Up</button>
+                  </div>
+                  <div className='socialWrapper'>
+                   <h4>Login via social account</h4>
+                    <div>
+                      <button><i class="fa fa-facebook" aria-hidden="true"></i> Login via facebook</button>
+                      <button><i className="fa fa-twitter" aria-hidden="true"></i> Login via twitter</button>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div className='circwrapper movecirc'>
+           </div>
+           <div className='circwrapper movecirc'>
                  <div className='circContainer'>
                     <div className='circ circ1'></div>
                     <div className='circ circ2'></div>     
                   </div>  
-              </div>  
-           </div>
+            </div>  
         <footer>
             <ul>
                 <li className="stroke">Help Center</li>

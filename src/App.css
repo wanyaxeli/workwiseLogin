@@ -17,7 +17,7 @@
 }
 .logincontainer{
   width: 70%;
-  height: 55vh;
+  height: 74vh;
   background-color: #fff;
   margin: auto;
   text-align: start;
@@ -115,9 +115,9 @@ footer ul li{
   
 }
 .circwrapper{
-  width: 100%;
+  width: 70%;
+  margin: -26px 0 8px 0;
   height: 30px;
-  margin-top: 28px;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -157,7 +157,7 @@ left: -10px;
   margin: auto;
   height: 50px;
   position: absolute;
-  top: 3%;
+  top: -3%;
 }
 .innerUpperCircContainer{
   width: 60%;
@@ -173,4 +173,35 @@ left: -10px;
 }
 .fontAwesome {
   font-family: 'Helvetica', 'FontAwesome', sans-serif ;
+}
+.submitBtn{
+  background-color: #e75349;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: #fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.socialWrapper{
+  width: 50%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+.socialWrapper button{
+  cursor: pointer;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+}
+.socialWrapper button:first-child{
+  background-color: blue;
+  margin-right: 10px;
+}
+.socialWrapper button:last-child{
+  background-color: #00acee;
 }
